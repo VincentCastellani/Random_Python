@@ -1,6 +1,6 @@
 sink
 tire
-veil 
+veil
 special
 flower
 handy

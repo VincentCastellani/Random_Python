@@ -36,9 +36,9 @@ while True:
         print('Use numeric digits')
 
 
-state = 0
+game_state = 0
 
-while state < turns:
+while game_state < turns:
     compMove = random.choice(moves)
     correctInput = False
 
@@ -87,7 +87,7 @@ while state < turns:
     else:
         print('How did you get here?!')
 
-    state += 1
+    game_state += 1
 
     print(score)
 

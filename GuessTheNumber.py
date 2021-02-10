@@ -48,16 +48,16 @@ while True:
 number = random.randint(lowerVal, upperVal)  # Generate random number
 # print('DEBUG: random number', number)
 
-state = 0
+game_state = 0
 win = False
 prevGuess = []
 
 # While the state is less than the defined guessAmount
-while state < guessAmount:
+while game_state < guessAmount:
     # Get the guess input, check it is a digit and it is within the lower and upper val range
     while True:
         try:
-            guess = input('{}. Guess the number between {} and {}: '.format(state + 1, lowerVal, upperVal))
+            guess = input('{}. Guess the number between {} and {}: '.format(game_state + 1, lowerVal, upperVal))
             numGuess = int(guess)
         except ValueError:
             print('Use numeric digits')
@@ -82,9 +82,9 @@ while state < guessAmount:
         print('Your guess is less than the random number\n')
 
     print('Previous Guesses: ', prevGuess)
-    state += 1
+    game_state += 1
 
 if win:  # True
-    print('Well done you guessed the random number in ', state + 1, ' guesses')
+    print('Well done you guessed the random number in ', game_state + 1, ' guesses')
 else:  # False
     print('You did not guess the number! It was ', number, '!')
