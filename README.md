@@ -32,3 +32,9 @@ Overview of code
 	- The user can choose if they want to play again
 	- The user can play until all the words in the list have been used, it will then tell the user that they have used all the words and end
 	
+4. Password Generator
+	- Console application
+	- Generates a password that is between 8 - 20 characters long
+	- The password will contain a random number of letters (upper and lower), numbers and special characters
+	- After making it I decided to have a google, and found that you can do this in 2 lines! The more you know!
+	
