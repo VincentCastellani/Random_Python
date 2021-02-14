@@ -55,7 +55,9 @@ def Special(max_val):
     special_chars = []
 
     for i in range(0, max_val):
-        special_chars.append(random.choice(string.punctuation))
+        char = random.choice(string.punctuation)
+        if char != '<' or char != '>':
+            special_chars.append(char)
 
     return special_chars
 
