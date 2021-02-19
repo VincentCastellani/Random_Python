@@ -37,4 +37,15 @@ Overview of code
 	- Generates a password that is between 8 - 20 characters long
 	- The password will contain a random number of letters (upper and lower), numbers and special characters
 	- After making it I decided to have a google, and found that you can do this in 2 lines! The more you know!
-	
+
+5. Password Creation
+	- GUI
+	- Starting to learn how to create GUIs with PyQt5
+	- Contains a button and label that is selectable
+	- A button press creates a password of random range betwen 8-20 characters
+
+6. Password Validator
+	- Console application
+	- Accidently uploaded! Refreshing my memory on Regex but it is not yet completed!
+	- The goal is for the user to enter a password and the program to confirm it meets the set standards
+	- Standards: Between 8-20 characters long, contains one or more upper and lower case letter, one or more digits, one or more special character
