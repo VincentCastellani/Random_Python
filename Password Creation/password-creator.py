@@ -59,9 +59,6 @@ class Ui_MainWindow(object):
         # print(password)
         # print(len(password))
         self.label.setText(str(password))
-        print(string.punctuation)
-        print(string.ascii_letters)
-        print(string.digits)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
