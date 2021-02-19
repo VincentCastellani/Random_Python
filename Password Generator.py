@@ -88,5 +88,4 @@ if __name__ == '__main__':
     print('Your password is : {}'.format(password))
 
     #This can all be done in one line!
-    one_line_password = ''.join([random.choice(string.ascii_letters + string.digits + string.punctuation) for n in range(pass_min, pass_max)])
-    print(one_line_password)
+
