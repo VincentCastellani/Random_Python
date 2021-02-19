@@ -46,6 +46,6 @@ Overview of code
 
 6. Password Validator
 	- Console application
-	- Accidently uploaded! Refreshing my memory on Regex but it is not yet completed!
-	- The goal is for the user to enter a password and the program to confirm it meets the set standards
+	- User enters a password
+	- Currently - accepts any character except <,>,whitespace and accepts length between 8-20
 	- Standards: Between 8-20 characters long, contains one or more upper and lower case letter, one or more digits, one or more special character
